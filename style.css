@@ -1,3 +1,15 @@
+.main{
+
+    
+    box-shadow: 20px 20px 10px #808080;
+    border-radius: 20px;
+    border  : 2px solid blueviolet;
+    /* max-height: 800px; */
+    margin:0 auto;
+    width: 400px;
+    /* background-color: red; */
+   /* margin-top: 5%; */
+}
 
 @media only screen and (max-width: 900px){
     .main{
@@ -5,25 +17,20 @@
     }
 }
 
-
-.main{
-    
-    box-shadow: 20px 20px 10px #808080;
-    border-radius: 20px;
-    border  : 2px solid #000000;
-    /* max-height: 800px; */
-    margin:0 auto;
-    width: 500px;
-    /* background-color: red; */
-   margin-top: 5%;
-}
-
 .img{
     margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 15%;
     text-align: center;
     width: 300px;
     
+}
+
+.text{
+    margin-bottom: 10%;
+    text-align: center;
+    /* width: 500px;
+    margin: 0 auto; */
+    /* background-color: red; */
 }
 
 h1,h2{
@@ -50,33 +57,36 @@ input{
     height: 40px;
     text-align: center;
     padding: 5px;
-    margin-left: 8%;
-    width: 400px;
+     /* margin-left: 8%; */
+    width: 350px; 
 }
+
 
 .btn1{
     margin-bottom:5%;
     font-size: 1.5em;
     font-weight: bold;
-    box-shadow: 5px 5px 10px #ffffff;
-    background-color: #000000;
+    /* box-shadow: 5px 5px 10px #ffffff; */
+    background-color: #800080;
     color: #ffffff;
     height: 40px;
     padding: 5px;
     /* ,margin: 0 auto;; */
-    margin-left: 20%;
+    /* margin-left: 20%; */
     margin-top: 20px;
     text-align: center;
-    width: 120px;
+    width: 140px;
 }
 
 
 .btn{
+    /* border-color: #ffffff; */
+    /* margin-bottom: 50px; */
     margin-bottom: 5%;
     font-size: 1.5em;
     font-weight: bold;
-    box-shadow: 5px 5px 10px #ffffff;
-    background-color: #000000;
+    /* box-shadow: 5px 5px 10px #ffffff; */
+    background-color: #800080;
     color: #ffffff;
     height: 40px;
     padding: 5px;
@@ -86,23 +96,32 @@ input{
     text-align: center;
     width: 140px;
 }
-
 .del{
-    padding: 0px 0px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 10px;
+    /* padding: 0px 0px; */
     width: 50px;
     height: 40px;
 }
 
 .edit{
-    margin-top: 20px;
+    margin-right: 10px;
+    text-align: center;
+    margin-left: 60px;
+    /* margin-top: 20px; */
     width: 50px;
     height: 30px;
 }
 
-.li{
-    margin-left: 5px;
+.li:first-child{
+    width: 100%;
+    /* margin-right: 50px; */
+    /* margin-left: 5px;  */
 }
+
 li{
+    
     margin-bottom: 10%;
     color: #0000ff;
     text-align: center;
@@ -113,3 +132,7 @@ li{
     font-size: 2.3em;
 }
 
+hr{
+    width: 85%;
+    background-color: #000000;
+}

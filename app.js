@@ -1,10 +1,7 @@
 var list = document.getElementById("list")
-
+var New = document.getElementById("input");
 function addNew(){
-    var New = document.getElementById("input");
-
-
-
+    
     /// create element ///
     var li = document.createElement("li");
     li.setAttribute("class","li")
@@ -36,7 +33,14 @@ function addNew(){
     // del.appendChild(del1);
     li.appendChild(del);
     
+    
+
+    // create hr element
+    var hr = document.createElement("hr");
+    li.appendChild(hr)
+
     list.appendChild(li)
+    
 }
 
 
@@ -53,7 +57,3 @@ function editBtn(e){
 function delBtn(f){
     f.parentNode.remove();
 }
-
-
-
-
